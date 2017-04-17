@@ -1,0 +1,15 @@
+# project1echo "currently logged user:"
+echo $(id -u)
+echo "currently logged user's name:"
+echo $(id -u -n)
+echo "current shell:"
+echo $SHELL
+echo "home directory:"$HOME
+echo "operating system type:"
+echo $(uname -o)
+echo "current path setting:"
+echo $PATH
+echo "current working directory:"
+echo $(pwd)
+echo "Number of users currently logged in:"
+echo $(who|wc -l)
